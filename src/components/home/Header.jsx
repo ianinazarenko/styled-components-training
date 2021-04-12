@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../globals/Hero';
 import aboutImg from '../../images/aboutBcg.jpeg';
 import Banner from '../globals/Banner';
-import { PrimaryButton } from '../globals/Buttons';
+import { PrimaryButton } from '../globals/Buttons.js';
 
 function Header() {
   return (

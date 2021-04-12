@@ -19,6 +19,7 @@ export const PrimaryButton = styled.button`
   ${setBorder({ color: setColor.primaryColor })};
   ${setLetterSpacing(3)};
   text-decoration: none;
+  cursor: pointer;
   ${setTransition};
   ${(props) =>
     `margin: ${props.t || 0} ${props.r || 0} ${props.b || 0} ${props.l || 0}`};
