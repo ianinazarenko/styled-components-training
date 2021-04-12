@@ -29,3 +29,8 @@ export const PrimaryButton = styled.button`
     color: ${setColor.primaryColor};
   }
 `;
+
+export const SmallButton = styled(PrimaryButton)`
+  padding: ${setRem(9)} ${setRem(12)};
+  font-size: ${setRem(16)};
+`;

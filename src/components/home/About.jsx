@@ -63,6 +63,11 @@ const Centered = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
+
+    .about-img,
+    .about-info {
+      /* padding: ${setRem(0)}; */
+  }
   `}
 `;
 
